@@ -1,0 +1,91 @@
+.navbar
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.navbar-nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar
+{
+    width: 100vw;
+}
+.nav-item
+{
+    margin-left: 20px;
+}
+#home
+{
+    background: url("https://media.istockphoto.com/videos/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke-video-id1341408852?b=1&k=20&m=1341408852&s=640x640&h=C6ymXpr_Jn6-WqQmHHuS8z6TGBtkWDQ9x6tFs_hsBjs=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+}
+#cont
+{
+   background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#cont h1{
+    font-size: 100px;
+    color: white;
+}
+
+#form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#form input
+{
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+#form textarea
+{
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+}
+#form input[type="submit"]
+{
+    background-color: white;
+    width: 150px;
+    text-align: center;
+    color: black;
+}
